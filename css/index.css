@@ -1,0 +1,110 @@
+body
+{
+    margin: 0;
+    
+    border: 0;
+    
+    background-color: white;
+}
+
+h1
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#wrapper
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+    background-color: seagreen;
+    
+    width: 100vw;
+    height: 200vh;
+}
+
+/*
+@media only screen and (max-height: 300px)
+{
+    
+}
+*/
+
+.bannerTextContainter
+{
+    padding: 20px;
+    
+    text-align: center;
+    
+    font-size: 8vw;
+    font-family: Arial;
+}
+
+#bannerText1, #bannerText3
+{
+    text-shadow: -1px -1px 0 rgba(220, 220, 220, 0.2),
+    -1px 1px 0 rgba(220, 220, 220, 0.2),
+    1px 1px 0 rgba(220, 220, 220, 0.2),
+    1px -1px 0 rgba(220, 220, 220, 0.2);
+}
+
+#bannerText2
+{
+    color: white;
+}
+
+#menu
+{
+    position: -webkit-sticky;
+    position: sticky;
+    
+    top: 10px;
+    
+    min-width: 100vw;
+    max-height: 48px;
+}
+
+#menuDropDown
+{
+    margin-top: 48px;
+    
+    display: none;
+    justify-content: center;
+    
+    height: 48px;
+}
+
+#menuDropDownIconHolder
+{
+    
+}
+
+.menuIconContainer
+{
+    margin: auto;
+    
+    max-width: 48px;
+    max-height: 48px;
+}
+
+.SubMenuIconContainer
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    float: left
+}
+
+.menuIcon
+{
+    margin: auto;
+    
+    display: block;
+    
+    width: 48px;
+    height: 48px;
+}
